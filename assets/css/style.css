@@ -1,0 +1,43 @@
+a:hover {
+    color: red;
+}
+
+input:focus {
+    background-color: green;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: grey;
+}
+
+p {
+    color: green;
+}
+
+header {
+    background-color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#pain-box {
+    background-color: brown;
+}
+
+#anxio-box {
+    background-color: #6f4e37;
+}
+
+#psy-box {
+    background-color: chocolate;
+}
