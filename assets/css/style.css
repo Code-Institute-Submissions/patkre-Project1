@@ -151,7 +151,7 @@ hr {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(83, 38, 38, 0.6);
     width: 20%;
     height: 300px;
     float: left;
@@ -159,11 +159,13 @@ hr {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    margin: 40px 80px;
 }
 
 #times h2 {
     color: #fafafa;
 }
+
 
 footer {
     height: 150px;
@@ -186,12 +188,15 @@ footer {
 
 #signin {
     background-color: burlywood;
-    color: green;
+    color: red;
     text-align: center;
+    box-sizing: border-box;
+    margin: 100px 200px;
+    padding: 100px;
 }
 
-#sign p {
-    background-color: green;
+#submit {
+    background-color: #3a3a3a;
 }
 
 @media screen and (max-width: 1200px) {
