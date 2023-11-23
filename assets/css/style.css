@@ -100,3 +100,67 @@ h2 {
     width: 33%;
     float: right;
 }
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/Tennis-Ireland-Icon-300x300.png') no-repeat center center;
+    height: 100%;
+    animation-name: tennis-boom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes tennis-boom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#times {
+    background-image: url('../images/times-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: #fafafa;
+}
