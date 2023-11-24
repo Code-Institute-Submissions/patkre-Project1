@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-    {
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
-
 
 body {
     font-family: Lato, sans-serif;
@@ -214,17 +213,29 @@ footer {
     color: #3a3a3a;
 }
 
+
 #signin {
-    background-color: burlywood;
-    color: red;
+    background: url('../images/player1.jpg') no-repeat center center;
+    color: white;
+    font-size: large;
+    font-weight: 1000;
     text-align: center;
-    box-sizing: border-box;
-    margin: 100px 200px;
-    padding: 100px;
+    width: 500px;
+    height: 600px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    margin: 0 auto;
 }
 
 #submit {
-    background-color: blue;
+    background-color: burlywood;
+    color: #fafafa;
+}
+
+.reg a {
+    color: white;
 }
 
 @media screen and (max-width: 1200px) {
@@ -265,7 +276,7 @@ footer {
     }
 }
 
-media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
 
     #menu {
         clear: left;
@@ -273,10 +284,6 @@ media screen and (max-width: 950px) {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0;
     }
 
     #aboutus {
@@ -304,7 +311,7 @@ media screen and (max-width: 950px) {
 }
 
 @media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
+    #times {
+        column-count: 1;
     }
 }
